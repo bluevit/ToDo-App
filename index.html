@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Todo App</title>
+    </head>
+    <body>
+        <h1 style="text-align: center;font-family: Arial, Helvetica, sans-serif;">Todo App</h1>
+        
+        <div class="main" style="display: flex; justify-content: center; align-items: center;">
+            <input id="input" placeholder="Enter Items" type="text">
+            <button onclick="addTodo()">Add Tasks</button>
+            <button onclick="deleteAllTodos()">Delete All Tasks</button>
+        </div>
+
+        <ul id="list"></ul>
+
+        <script src="todo.js"></script>
+    </body>
+</html>
